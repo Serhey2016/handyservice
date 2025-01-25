@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'home',
 ]
 
 MIDDLEWARE = [
@@ -91,13 +92,7 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.postgresql',
-    #     'NAME': 'offerland_django_db',
-    #     'USER': 'offerland_user',
-    #     'PASSWORD': 'offerland_django123',
-    #     'HOST': 'db',
-    #     'PORT': '5432',
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
